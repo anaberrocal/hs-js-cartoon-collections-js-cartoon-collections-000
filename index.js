@@ -5,7 +5,7 @@ function dwarfRollCall(dwarves) {
     for ( let i = 0; i < dwarves.length; i++) {
       newDwarvesArray.push(`${i + 1}. ${dwarves[i]} `)
     }
-    return dwarvesArray.join('');
+    return newDwarvesArray.join('');
   };
 
 
