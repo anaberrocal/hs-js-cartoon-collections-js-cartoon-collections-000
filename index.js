@@ -3,7 +3,7 @@
 function dwarfRollCall(dwarves) {
     let newDwarvesArray = [];
     for ( let i = 0; i < dwarves.length; i++) {
-      dwarvesArray.push(`${i + 1}. ${dwarves[i]} `)
+      newDwarvesArray.push(`${i + 1}. ${dwarves[i]} `)
     }
     return dwarvesArray.join('');
   };
