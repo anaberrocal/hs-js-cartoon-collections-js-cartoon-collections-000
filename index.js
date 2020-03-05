@@ -1,7 +1,7 @@
 // FUNCTION #1 - "DWARF ROLL CALL":
 //Takes array and returns a single string with array elements in numeric order
 function dwarfRollCall(dwarves) {
-    let dwarvesArray = [];
+    let newDwarvesArray = [];
     for ( let i = 0; i < dwarves.length; i++) {
       dwarvesArray.push(`${i + 1}. ${dwarves[i]} `)
     }
