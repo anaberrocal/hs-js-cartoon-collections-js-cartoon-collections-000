@@ -1,6 +1,6 @@
 ## Objectives
 
-You're going to get familiar with iterating through arrays in Javascript. 
+You're going to get familiar with iterating through arrays in Javascript.
 
 ## Instructions
 
@@ -49,7 +49,7 @@ Once the test for this method is passing, move on to the next method, long plane
 The `longPlaneteerCalls` method should accept an array of calls. The function should tell us if any of the calls are longer than four characters. For example:
 
 ```js
-shortWords = ["wind", "fire"]
+shortWords = ["windd", "fire"]
 longPlaneteerCalls(short_words)
 #=> false
 
